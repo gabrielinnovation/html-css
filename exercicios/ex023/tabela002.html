@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,8 +28,22 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #555555;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #555555;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1*/
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgrey;
         }
 
         td.num {
@@ -172,5 +187,11 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut recusandae accusantium, velit voluptatem unde reiciendis quae quidem cumque, veniam molestias quisquam voluptatum? Ea, magnam ipsa quia dolorum cum aliquam incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat alias cupiditate quaerat ipsam, temporibus sint iure ipsum modi nemo et, voluptas sed reiciendis eveniet dolore consequuntur, recusandae obcaecati inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla veniam ut ducimus consectetur tempore laborum, sequi quas aut possimus porro error harum vitae, facere ipsa, ullam atque ratione perspiciatis culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, similique repudiandae. Cupiditate sint autem iste expedita laudantium modi nihil nulla provident ducimus beatae nam quam, dignissimos consequuntur quae repellat illum.</p>
 </body>
 </html>
