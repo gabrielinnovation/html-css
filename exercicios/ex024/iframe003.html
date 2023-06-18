@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem vitae natus ipsum obcaecati dolores blanditiis commodi totam dolorum, deleniti voluptates placeat, rerum sapiente laudantium, quidem officia praesentium! Adipisci, voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, dolorum. Corporis quo natus similique neque in? Nulla praesentium impedit facilis reiciendis error cumque a aspernatur quia, id, quasi odio? Cum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem vitae natus ipsum obcaecati dolores blanditiis commodi totam dolorum, deleniti voluptates placeat, rerum sapiente laudantium, quidem officia praesentium! Adipisci, voluptas.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, dolorum. Corporis quo natus similique neque in? Nulla praesentium impedit facilis reiciendis error cumque a aspernatur quia, id, quasi odio? Cum?</p>
+
+    <iframe src="" id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima!</h1><img src='imagens/gabriel.favicon.png'>">
+
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis qui vel facilis modi eum nisi doloribus! Nesciunt dignissimos doloremque quae libero. Sequi, expedita nesciunt libero aperiam voluptatibus sed earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sequi iure libero perspiciatis earum provident obcaecati aliquam error! Ab excepturi eum magni? Nesciunt rem saepe cumque aut! Minima, voluptatem sunt.</p>
+
 </body>
 </html>
